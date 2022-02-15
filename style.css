@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    background-color: gray;
+    height: 200px;
+    display: flex;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+nav li {
+    margin: 20px;
+}
+
+.busqueda {
+    background-color: aquamarine;
+    width: 40%;
+}
+
+nav svg {
+    width: 30px;
+    height: 30px;
+}
+
+nav img {
+    width: 60px;
+}
+
+/* grid-template-columns: repeat(6, 1fr); */
+.contenedor {
+    margin-top: 50px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(6, 1fr));
+    grid-gap: 10px;
+    max-width: 100%;
+    
+}
+
+
+
+.grid-item{
+    background-color: blueviolet;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+
